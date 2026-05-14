@@ -1,5 +1,7 @@
 package br.senac.sp.calculadora;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 public class ClasseConflitada {
@@ -15,5 +17,35 @@ public class ClasseConflitada {
         Integer soma = a + b;
         System.out.println("A soma de " + a + " e " + b + " é: " + soma);
 
+        itsMicheal();
+
     }
+
+    public static void itsMicheal(){
+
+        List<String> art = new ArrayList<>();
+        art.add("⣿⣿⠿⢿⣿⣿⣿⣿⣿⣿⣿⡏⠉⠉⢹⣿⣿⣿⣿⣿⣿⣿");
+        art.add("⣯⣦⣀⡀⠻⣿⣿⣿⣿⣿⠋⠀⠀⠀⠀⣈⣿⣿⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⡄⠈⢻⣿⣿⣿⢳⡄⠀⠀⠀⢩⠉⢻⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣄⠀⠀⢘⠆⠀⠀⢰⣶⣆⣸⡷⠘⢿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣷⣤⠊⠀⠀⢰⣿⣿⣿⣿⣿⡁⣠⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⠋⠀⠀⠀⠸⣿⣿⣿⣿⣿⣇⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⡿⠃⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⡿⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⡇⠀⣀⣠⣤⣦⢤⡙⠻⠿⠿⢟⠀⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡏⠀⠉⠉⠈⠉⠁⢀⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⢠⣧⠀⠀⠀⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⣸⣿⡆⠀⠀⣿⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠀⣿⣿⣿⡀⠀⠙⣿⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⢰⣿⣿⣿⣷⡀⠀⢻⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠀⠀⢸⣿⣿⣿⣿⣇⠀⠘⣿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⣾⣿⣿⣿⣿⣿⡄⠀⢻⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣇⠀⣀⣿⣿⣿⣿⣿⣿⣿⡿⠿⣿");
+        art.add("⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣼⣿⣿⣿⣿⣿⣿⣿⣥⣤⣼");
+
+        for (String line : art) {
+            System.out.println(line);
+        }
+    }
+
 }
