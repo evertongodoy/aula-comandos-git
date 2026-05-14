@@ -23,6 +23,12 @@ public class ClasseConflitada {
 
         itsMicheal();
 
+        if (resultado == 4);{
+
+        } else {
+            System.out.println("esta errado");
+
+        }
     }
 
     public static void itsMicheal(){
