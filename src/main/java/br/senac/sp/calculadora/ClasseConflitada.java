@@ -14,6 +14,10 @@ public class ClasseConflitada {
         Integer b = new Random().nextInt(100);
         Integer soma = a + b;
         System.out.println("A soma de " + a + " e " + b + " é: " + soma);
+        String palavraUm = "abo";
+        String palavraDois = "brinha";
+
+        System.out.println(palavraUm + " + " + palavraDois + " = " + palavraUm + palavraDois);
 
     }
 }
