@@ -15,5 +15,11 @@ public class ClasseConflitada {
         Integer soma = a + b;
         System.out.println("A soma de " + a + " e " + b + " é: " + soma);
 
+        if (resultado == 4);{
+
+        } else {
+            System.out.println("esta errado");
+
+        }
     }
 }
